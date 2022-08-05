@@ -97,7 +97,9 @@ const SignUp = () => {
             </Grid>
           </Grid>
         </form>
+        <input type="text" />
       </Paper>
+     
     </Container>
   );
 };

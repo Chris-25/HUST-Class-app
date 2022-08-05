@@ -80,9 +80,9 @@ const Home = () => {
     label=" "
     onChange={handleChange}
   >
-    <MenuItem value={'Điểm rèn luyện'}>Ten</MenuItem>
-    <MenuItem value={'Học bổng'}>Twenty</MenuItem>
-    <MenuItem value={30}>Thirty</MenuItem>
+    <MenuItem value={'Điểm rèn luyện'}>Điểm rèn luyện</MenuItem>
+    <MenuItem value={'Học bổng'}>Học bổng</MenuItem>
+    <MenuItem value={'Thực tập'}>Thực tập</MenuItem>
   </Select>
 </FormControl>
 

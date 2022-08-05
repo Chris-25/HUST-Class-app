@@ -27,6 +27,7 @@ const CommentSection = ({ post }) => {
       <div className={classes.commentsOuterContainer}>
         <div className={classes.commentsInnerContainer}>
           <Typography gutterBottom variant="h6">Tất cả bình luận</Typography>
+          <span className="allComments">Tất cả bình luận</span>
           {comments?.map((c, i) => (
             <Typography key={i} gutterBottom variant="subtitle1">
               <strong>{c.split(': ')[0]}</strong>
@@ -42,6 +43,7 @@ const CommentSection = ({ post }) => {
           <Button style={{ marginTop: '10px' }} fullWidth disabled={!comment.length} color="primary" variant="contained" onClick={handleComment}>
             Bình luận
           </Button>
+          <button disabled={!comment.length} onClick={handleComment}>Bình luận</button>
         </div>
       </div>
     </div>

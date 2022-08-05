@@ -95,8 +95,8 @@ const Form = ({ currentId, setCurrentId }) => {
         
         >
       <MenuItem value={'Học bổng'}>Học bổng</MenuItem>
-      <MenuItem value={20}>Twenty</MenuItem>
-      <MenuItem value={30}>Thirty</MenuItem>
+      <MenuItem value={'Điểm rèn luyện'}>Điểm rèn luyện</MenuItem>
+      <MenuItem value={'Thực tập'}>Thực tập</MenuItem>
       </Select>
       </FormControl>
         <div className={classes.fileInput}><FileBase type="file" multiple={false} onDone={({ base64 }) => setPostData({ ...postData, selectedFile: base64 })} /></div>
